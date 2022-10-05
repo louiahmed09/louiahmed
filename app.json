@@ -1,0 +1,42 @@
+{
+    "name": "Tele Checker",
+    "description": "A Telegram bot for checking rare users",
+    "keywords": [
+        "telegram",
+        "bot",
+        "heroku",
+        "app.json",
+        "app",
+        "json",
+        "maker",
+        "generator"
+    ],
+        "repository": "https://github.com/J5J5/for_J5J5",
+    "website": "https://t.me/k_8_u",
+    "success_url": "https://t.me/k_8_u",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "ضع التوكن الخاص بك https://t.me/BotFather"
+        },
+        "SUDO": {
+            "description": "ضع الايدي الخاص بك"
+        },
+        "HEROKU": {
+            "description": "اسم التطبيق [خلي نفس اول شي لتغيير]",
+            "required": "False",
+            "value": ""
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
