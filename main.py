@@ -177,7 +177,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and g not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @Y_U_8")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحة ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @Y_U_8")
 			else:
 				cp+=1
 				sk+=1
